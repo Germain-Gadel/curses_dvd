@@ -29,10 +29,10 @@ def dvd(stdscr):
     k = 0
 
     stdscr = init_dvd(stdscr)
-    pos_x = 70
-    pos_y = 5
-    vector_x = -1
-    vector_y = -1
+    pos_x = 1
+    pos_y = 1
+    vector_x = 1
+    vector_y = 1
     sq_colour = 1
 
     while (k != ord('q')):
