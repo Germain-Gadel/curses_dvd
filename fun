@@ -61,7 +61,7 @@ def dvd(stdscr):
             sq_colour = randint(1, 7)
     
         stdscr.refresh()
-        time.sleep(0.2)
+        time.sleep(0.1)
         k = stdscr.getch()
 
 def main():
